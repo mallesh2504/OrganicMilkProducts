@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: linear-gradient(rgba(219, 216, 216, 0.982), rgba(247, 239, 239, 0.5)), 
+      url('https://mea.arla.com/globalassets/products/brands-from-a-z/organic-milk/2400x1000_campaign-deck_eng.jpg?preset=full-desktop'); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+header {
+  background-color: #85bb65;
+  color: rgb(243, 230, 230);
+  text-align: center;
+  padding: 5px 0;
+}
+marquee {
+  color: #f3e3e1;
+  background-color: #3a5f0b;
+  padding: 10px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content {
+  text-align: center;
+  margin: 49px;
+}
+.product {
+  display: inline-block;
+  margin: 14px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgb(190, 187, 187);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.product img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+.product h3 {
+  color: #151515;
+}
+.product p {
+  color: #3b3a3a;
+}
+.orr{
+  text-align: center;
+  color: #161a10;
+  
+}
+.ordr{
+  background-color: #e1ebe1; 
+  padding: 10px 10px;
+  cursor: pointer;  
+  font-size: 13px; 
+  border-radius: 8px
+}
+.ordr:hover {
+  background-color: #4cad51;
+}
+.bdy{
+  background-image:url('https://www.cdph.ca.gov/Programs/CID/DCDC/PublishingImages/VPHS/MilkProduction.png'); 
+}
